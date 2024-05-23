@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "75169023102",
+    "project_id": "data-collector-e39d3",
+    "storage_bucket": "data-collector-e39d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:75169023102:android:0e48163d9fe22fd904c42f",
+        "android_client_info": {
+          "package_name": "com.datacollector.data_collector"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAendpg7jKMgS4I0KiO2vJ_8f9nUsM1c40"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
