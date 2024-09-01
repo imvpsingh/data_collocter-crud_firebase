@@ -5,7 +5,8 @@ import '../widgets/appBar_title.dart';
 import '../widgets/custom_text.dart';
 
 class UserDetails extends StatefulWidget {
-  const UserDetails({super.key});
+  final String uid;
+  const UserDetails({super.key, required this.uid});
 
   @override
   State<UserDetails> createState() => _UserDetailsState();
@@ -163,7 +164,7 @@ class _UserDetailsState extends State<UserDetails> {
                         "location": locationController.text,
                       };
                       await DatabaseMethods()
-                          .addUserDetails(userInfoMap, id)
+                          .addUserDetails(userInfoMap, id, widget.uid)
                           .then((value) {
                         setState(() {
                           isLoading = false;
